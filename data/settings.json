@@ -2,7 +2,7 @@
   "theme": "auto",
   "fontSize": "normal",
   "language": "id",
-  "teacherMode": false,
+  "teacherMode": true,
   "animations": true,
   "sound": false,
   "appName": "Belajar",
