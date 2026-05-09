@@ -13,10 +13,11 @@ const QuizManager = {
   
   async init() {
     try {
-    // Memastikan aplikasi tidak dijalankan langsung dari double-click file .html
-    if (window.location.protocol === 'file:') {
-      console.warn("Menjalankan via file:// akan memblokir fitur fetch di beberapa browser.");
-    }
+      // Periksa protokol
+      if (window.location.protocol === 'file:') {
+        alert("Aplikasi harus dijalankan menggunakan Local Server untuk memuat file quiz.json.");
+        return;
+      }
       
       // Ambil slug materi dari URL parameter (misal: ?materi=statistika-smp)
       const urlParams = new URLSearchParams(window.location.search);
