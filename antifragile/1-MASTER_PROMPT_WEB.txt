@@ -21,7 +21,7 @@ Lalu file `data/materi-list.json` di root aplikasi harus diupdate agar materi ba
 - **Matematika/Rumus**: Gunakan format KaTeX `$$rumus$$` untuk block, dan `$rumus$` untuk inline.
 - **Gambar**: Jika materi butuh ilustrasi gambar, beri tahu saya untuk mengupload gambar ke postimages.org, lalu tuliskan kode markdown `<img src="[URL_GAMBAR]" style="width:100%; border-radius:12px; margin:16px 0;">` di dalam `materi.json`.
 - **Format JSON**: Pastikan JSON valid, tidak ada koma di akhir array/object yang salah.
-- **Konsep Kecil**: Pecah materi menjadi maksimal 5-7 konsep agar siswa tidak bosan.
+- **Konsep Kecil**: Pecah materi menjadi maksimal 5-7 (atau bahkan 10 lebih) konsep agar siswa tidak bosan.
 
 ## FORMAT BALASAN (WAJIB SEPERTI INI)
 
