@@ -143,10 +143,8 @@ window.FocusCardManager = {
       // Redirect to quiz
       if (confirm('Selamat! Anda telah menyelesaikan materi. Lanjut ke kuis?')) {
         const pathParts = window.location.pathname.split('/').filter(p => p.length > 0);
-        // Cari posisi folder 'materi' lalu ambil nama folder persis setelahnya (slug)
-        const materiIndex = pathParts.indexOf('materi');
-        const slug = materiIndex !== -1 ? pathParts[materiIndex + 1] : pathParts[pathParts.length - 2];
-        
+        // Misal: ['materi', 'statistika-smp', 'index.html'] atau ['materi', 'statistika-smp']
+        const slug = pathParts[1]; // selalu ambil elemen setelah 'materi'
         window.location.href = `../../quiz.html?materi=${slug}`;
       }
     }
