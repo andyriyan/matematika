@@ -9,6 +9,19 @@
   ],
   "materi": [
     {
+      "id": "pas-geometri-2024",
+      "slug": "pas-geometri-2024",
+      "title": "Pembahasan PAS Geometri 2024",
+      "description": "Latihan soal dan pembahasan lengkap Geometri Bidang & Ruang.",
+      "category": "math",
+      "thumbnail": "",
+      "totalConcepts": 7,
+      "estimatedTime": "25 menit",
+      "difficulty": "sedang",
+      "tags": ["matematika", "SMP", "geometri"],
+      "published": true
+    },
+    {
       "id": "pengantar-aswaja",
       "slug": "pengantar-aswaja",
       "title": "Materi 1: Pengantar Aswaja",
@@ -34,7 +47,7 @@
       "tags": ["matematika", "statistika", "smp"],
       "published": true
     },
-{
+    {
       "id": "bangun-datar-segiempat",
       "slug": "bangun-datar-segiempat",
       "title": "Bangun Datar Segiempat",
@@ -45,6 +58,19 @@
       "estimatedTime": "20 menit",
       "difficulty": "menengah",
       "tags": ["matematika", "geometri", "smp"],
+      "published": true
+    },
+    {
+      "id": "geometri-dan-pythagoras",
+      "slug": "geometri-dan-pythagoras",
+      "title": "Geometri Dasar dan Teorema Pythagoras",
+      "description": "Materi hubungan garis, sudut, segitiga, dan Pythagoras untuk siswa kelas 7.",
+      "category": "math",
+      "thumbnail": "",
+      "totalConcepts": 10,
+      "estimatedTime": "25 menit",
+      "difficulty": "mudah",
+      "tags": ["geometri", "segitiga", "pythagoras"],
       "published": true
     }
   ]
